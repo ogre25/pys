@@ -26,7 +26,7 @@ function chrdpdefport
       #input new rdp port number  value
       $inputnewportnum = read-host "please input your new rdp portnumber"
       #chang it in registry
-      Set-ItemProperty -path $rdpdefportkey -Name $rdpdefportval -Value $inputnewportnum
+      Set-ItemProperty -path $rdpdefportkey -Name PortNumber -Value $inputnewportnum
     }
  }
 
