@@ -1,2 +1,7 @@
-# pys
-it's a powershell of security set for windows
+# INTRODUCT
+
+it's a powershell script of security set for windows
+
+# USAGE
+
+run start.bat 
